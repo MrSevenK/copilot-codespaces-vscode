@@ -3,8 +3,7 @@ name: Step 1, Copilot Extension in a Codespace
 # This step triggers after push to main#devcontainer.json.
 # This workflow updates from step 1 to step 2.
 
-# This will run every time we main#devcontainer.json
-# Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
+# This will run every time we push to main#devcontainer.json
 on:
   workflow_dispatch:
   push:
@@ -16,8 +15,11 @@ on:
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
   # Need `contents: read` to checkout the repository.
-  # Need `contents: write` to update the step metadata.
+# Need `contents: write` to update the step metadata.
   contents: write
+  id-token: write
+  issues: write
+  pull-requests: write
 
 jobs:
   # The purpose of this job is to output the current step number
