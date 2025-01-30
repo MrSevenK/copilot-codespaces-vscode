@@ -1,5 +1,6 @@
 # Code with GitHub Copilot
 
+
 <!--
   <<< Author notes: Course header >>>
   Read <https://skills.github.com/quickstart> for more information about how to build courses using this template.
@@ -9,7 +10,6 @@
   Add your open source license, GitHub uses the MIT license.
 -->
 
-_GitHub Copilot can help you code by offering autocomplete-style suggestions right in VS Code and Codespaces._
 
 <!--
   <<< Author notes: Course start >>>
