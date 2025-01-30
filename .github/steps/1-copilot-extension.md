@@ -1,3 +1,5 @@
+# Step 1: Leverage Codespaces with VS Code for Copilot
+
 <!--
   <<< Author notes: Step 1 >>>
   Choose 3-5 steps for your course.
@@ -5,8 +7,6 @@
   Link to docs.github.com for further explanations.
   Encourage users to open new tabs for steps!
 -->
-
-## Step 1: Leverage Codespaces with VS Code for Copilot
 
 _Welcome to "Develop With AI Powered Code Suggestions Using GitHub Copilot and VS Code"! :wave:_
 
@@ -29,11 +29,14 @@ Before you open up a codespace on a repository, you can create a development con
 
 1. Navigating back to your **Code** tab of your repository, click the **Add file** drop-down button, and then click `Create new file`.
 1. Type or paste the following in the empty text field prompt to name your file.
-   ```
+
+   ```json
    .devcontainer/devcontainer.json
    ```
+
 1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content:
-   ```
+
+   ```json
    {
        // Name this configuration
        "name": "Codespace for Skills!",
@@ -46,6 +49,7 @@ Before you open up a codespace on a repository, you can create a development con
        }
    }
    ```
+
 1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit new file** button.
 1. Navigate back to the home page of your repository by clicking the **Code** tab located at the top left of the screen.
 1. Click the **Code** button located in the middle of the page.
